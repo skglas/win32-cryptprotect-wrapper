@@ -25,14 +25,23 @@ Tested on SBCL & Windows 11
 Example
 
 `CL-USER> (ql:quickload :win32-cryptprotect-wrapper)
+
 To load "win32-cryptprotect-wrapper":
+
 Load 1 ASDF system:
+
 win32-cryptprotect-wrapper
+
 ; Loading "win32-cryptprotect-wrapper"
+
 ..................................................
+
 [package win32-cryptprotect-wrapper]..
+
 (:WIN32-CRYPTPROTECT-WRAPPER)
+
 CL-USER> (win32-cryptprotect-wrapper:encrypt-password "12345")
+
 #(1 0 0 0 208 140 157 223 1 21 209 17 140 122 0 192 79 194 151 235 1 0 0 0 240
   53 24 84 45 249 134 77 151 81 137 70 71 210 162 171 0 0 0 0 2 0 0 0 0 0 16
   101 0 0 0 1 0 0 32 0 0 0 148 188 189 82 89 121 167 199 231 71 84 99 254 120 3
@@ -43,8 +52,11 @@ CL-USER> (win32-cryptprotect-wrapper:encrypt-password "12345")
   246 64 98 94 207 74 151 84 216 10 92 225 250 138 146 113 138 185 245 102 213
   7 135 213 85 148 89 99 120 5 31 164 111 249 124 193 90 11 253 218 133 134 192
   19 228 105 168 206 160 161 39 225 3 116 243 70)
+  
 CL-USER> (win32-cryptprotect-wrapper:decrypt-password *)
+
 "12345"
+
 CL-USER>` 
 
 ## License
