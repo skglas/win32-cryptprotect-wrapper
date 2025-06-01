@@ -9,6 +9,7 @@ This leverages the Windows cryptographic services, which offer Per-user or Per-m
 As a result, encrypted data is not portable outside the originating Windows system or user account. This protects plaintext credentials from leaking via backups or file theft.
 
 You can combine this wrapper with libraries like [`cl-store`](https://github.com/sharplispers/cl-store) to store credentials in files with additional security.
+
 Parts of this code were generated from ChatGPT 2025-04. Idea by Sebastian K. Glas, 2025
 
 > **Disclaimer**  
