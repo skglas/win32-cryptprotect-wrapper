@@ -1,5 +1,4 @@
 # win32-cryptprotect-wrapper
-### Sebastian K. Glas <s.glas@glas-consulting.de>_
 
 Your Situation: From Common Lisp on Windows, you would like to store credentials better than just plain-text in a file.
 
