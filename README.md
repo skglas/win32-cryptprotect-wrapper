@@ -23,8 +23,8 @@ Idea by Sebastian Glas, 2025
 Tested on SBCL & Windows 11
 
 Example
-
-`CL-USER> (ql:quickload :win32-cryptprotect-wrapper)
+`
+CL-USER> (ql:quickload :win32-cryptprotect-wrapper)
 
 To load "win32-cryptprotect-wrapper":
 
@@ -57,7 +57,8 @@ CL-USER> (win32-cryptprotect-wrapper:decrypt-password *)
 
 "12345"
 
-CL-USER>` 
+CL-USER>
+`
 
 ## License
 
