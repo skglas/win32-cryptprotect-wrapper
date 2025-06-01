@@ -16,6 +16,7 @@ You can combine this wrapper with libraries like [`cl-store`](https://github.com
 > This code has **not** been security-audited.  
 > Provided **as-is**, without warranty to the extent permitted by law.
 
+Parts of this code were generated from ChatGPT 2025-04. Idea by Sebastian K. Glas, 2025
 ---
 
 ## Example
