@@ -13,9 +13,9 @@ The windows installation is required for decryption.
 
 You could combine this with cl-store and save the credentials in a file with this additional protection.
 
-This is a proof-of-concept. Do not use in production.
+**This is a proof-of-concept. Do not use in production.
 This code has not been security-audited.
-This proof-of-concept comes with no warranty to the extent permitted by law.
+This proof-of-concept comes with no warranty to the extent permitted by law.**
 
 Parts of this code were generated from ChatGPT 2025-04.
 Idea by Sebastian Glas, 2025
@@ -24,10 +24,10 @@ Tested on SBCL & Windows 11
 
 Example
 
-CL-USER> (ql:quickload :win32-cryptprotect-wrapper)
+`CL-USER> (ql:quickload :win32-cryptprotect-wrapper)
 To load "win32-cryptprotect-wrapper":
-  Load 1 ASDF system:
-    win32-cryptprotect-wrapper
+Load 1 ASDF system:
+win32-cryptprotect-wrapper
 ; Loading "win32-cryptprotect-wrapper"
 ..................................................
 [package win32-cryptprotect-wrapper]..
@@ -45,7 +45,7 @@ CL-USER> (win32-cryptprotect-wrapper:encrypt-password "12345")
   19 228 105 168 206 160 161 39 225 3 116 243 70)
 CL-USER> (win32-cryptprotect-wrapper:decrypt-password *)
 "12345"
-CL-USER> 
+CL-USER>` 
 
 ## License
 
